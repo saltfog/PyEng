@@ -4,12 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Create x, evenly spaced between 0 to 20
-x = np.linspace(0, 20, 1000)
+x = np.linspace(0, 20, 10)
 y1 = np.sin(x)
 y2 = np.cos(x)
 
 # Plot the sin and cos functions
-plt.plot(x , y1, "-g", label="sine")
+plt.plot(x , y1, "-r", label="sine")
 plt.plot(x , y2, "-b", label="cos")
 
 # The legend should be in the top right corner
